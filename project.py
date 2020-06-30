@@ -79,7 +79,7 @@ def find_record():
 def edit_record():
     doc = get_record()
     if doc:
-        update_doc={}
+        update_doc = {}
         print("")
         for key, value in doc.items():
             if key != "_id":
